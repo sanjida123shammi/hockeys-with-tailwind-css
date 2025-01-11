@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Web Title -->
+        <title>Hockey's</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+        <!-- daisyUI CDN Link -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Customized Theme CSS File -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+
+    <body class="font-manrope text-primary-color">
+        <!-- Header Section Start -->
+        <header class="container mx-auto">
+            <!-- Navbar Row Start -->
+            <div class="navbar py-8">
+                <div class="navbar-start gap-3">
+                    <!-- Responsive Navbar Start -->
+                    <div class="drawer drawer-end w-auto lg:hidden">
+                        <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+                        <div class="drawer-content">                            
+                          <!-- Page content here -->                          
+                            <div tabindex="0" role="button" class="btn btn-ghost px-0 lg:hidden">
+                                <label for="my-drawer" class="drawer-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                                    </svg>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- Responsive Menu -->
+                        <div class="drawer-side">
+                            <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+                            <ul class="menu bg-white text-base min-h-full w-64 sm:w-80 p-6 items-center gap-3">
+                                <!-- Sidebar content here -->
+                                <li><a href="index.html" class="hover:bg-transparent font-bold hover:text-secondary-color active:!bg-transparent active:!text-secondary-color focus:bg-transparent focus:text-secondary-color">Home</a></li>
+                                <li><a href="#about" class="hover:bg-transparent font-bold hover:text-secondary-color active:!bg-transparent active:!text-secondary-color focus:bg-transparent focus:text-secondary-color">About</a></li>
+                                <li><a href="#pages" class="hover:bg-transparent font-bold hover:text-secondary-color active:!bg-transparent active:!text-secondary-color focus:bg-transparent focus:text-secondary-color">Pages</a></li>
+                                <li><a href="#blog" class="hover:bg-transparent font-bold hover:text-secondary-color active:!bg-transparent active:!text-secondary-color focus:bg-transparent focus:text-secondary-color">Blog</a></li>
+                                <li><a href="#contact" class="hover:bg-transparent font-bold hover:text-secondary-color active:!bg-transparent active:!text-secondary-color focus:bg-transparent focus:text-secondary-color">Contact</a></li>
+                                <!-- Button -->
+                                <li><a class="btn bg-secondary-color xs:hidden h-auto min-h-0 mt-4 px-5 sm:px-6 py-3 text-base sm:text-lg font-bold text-white hover:bg-primary-color">Get Ticket</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Responsive Navbar End -->
+                  
+                    <!-- Logo -->
+                    <a href="index.html" class="text-2xl sm:text-4xl font-extrabold">Hockey<span class="text-secondary-color">’</span>s</a>
+                </div>
+
+                <!-- Nav Menu -->
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal gap-4 px-1 text-base text-nav-color">
+                        <li><a href="index.html" class="hover:bg-transparent font-bold hover:text-secondary-color active:!bg-transparent active:!text-secondary-color focus:bg-transparent focus:text-secondary-color">Home</a></li>
+                        <li><a href="#about" class="hover:bg-transparent font-bold hover:text-secondary-color active:!bg-transparent active:!text-secondary-color focus:bg-transparent focus:text-secondary-color">About</a></li>
+                        <li><a href="#pages" class="hover:bg-transparent font-bold hover:text-secondary-color active:!bg-transparent active:!text-secondary-color focus:bg-transparent focus:text-secondary-color">Pages</a></li>
+                        <li><a href="#blog" class="hover:bg-transparent font-bold hover:text-secondary-color active:!bg-transparent active:!text-secondary-color focus:bg-transparent focus:text-secondary-color">Blog</a></li>
+                        <li><a href="#contact" class="hover:bg-transparent font-bold hover:text-secondary-color active:!bg-transparent active:!text-secondary-color focus:bg-transparent focus:text-secondary-color">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Search and Get Ticket Button -->
+                <div class="navbar-end gap-3">
+                    <button class="btn btn-ghost hidden sm:inline-block text-lg text-[#89898B] hover:bg-transparent hover:text-secondary-color">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <a class="btn bg-secondary-color hidden xs:inline-block h-auto min-h-0 px-5 sm:px-6 py-3 text-base sm:text-lg font-bold text-white hover:bg-primary-color">Get Ticket</a>
+                </div>
+            </div>
+            <!-- Navbar Row End -->
+
+            <!-- Hero Section Start -->
+            <section class="px-[10px]">
+                <div>
+                    <div class="carousel w-full h-[650px] rounded-2xl">
+                        <div id="slide1" class="carousel-item relative w-full">
+                            <img src="assets/images/1.png" class="w-full" />
+                            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide3" class="btn btn-circle">❮</a>
+                                <a href="#slide2" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide2" class="carousel-item relative w-full">
+                            <img src="assets/images/slide.jpg" class="w-full" />
+                            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide1" class="btn btn-circle">❮</a>
+                                <a href="#slide3" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                        <div id="slide3" class="carousel-item relative w-full">
+                            <img src="assets/images/slider.jpg" class="w-full" />
+                            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                                <a href="#slide2" class="btn btn-circle">❮</a>
+                                <a href="#slide1" class="btn btn-circle">❯</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Hero Section End -->
+        </header>
+        <!-- Header Section End -->
+        
+
+        <!-- Tailwind CSS CDN Link -->
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Fontawesome Link -->
+        <script src="https://kit.fontawesome.com/a1c52cc1c0.js" crossorigin="anonymous"></script>
+
+        <!-- Customized Tailwind CSS Colors -->
+        <script>
+            tailwind.config = {
+                theme: {
+                    screens: {
+                        xs: '320px',
+                        sm: '576px',
+                        md: '768px',
+                        lg: '1024px',
+                        xl: '1280px',
+                        '2xl': '1536px',
+                    },
+                    extend: {
+                        colors: {
+                            clifford: '#da373d',
+                            'primary-color': '#131318',
+                            'secondary-color': '#FF4240',
+                            'nav-color': '#424247',
+                        }
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
