@@ -3,6 +3,9 @@
 
 
 /* Global CSS */
+html, body {
+    background-color: white !important;
+}
 .font-manrope{
     font-family: "Manrope", serif;
 }
